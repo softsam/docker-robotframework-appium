@@ -7,6 +7,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip install robotframework==2.9rc1
-RUN pip install robotframework-appiumlibrary=1.2.7
+RUN pip install robotframework-appiumlibrary==1.2.7
 
 ENTRYPOINT ["/usr/local/bin/pybot"]
