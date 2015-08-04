@@ -4,8 +4,8 @@ Run automated tests on your mobile using Robot Framework and a remote Appium ser
 ## Built with
 - latest debian
 - python-pip
-- robotframework 2.9rc1
-- appiumLibrary 1.2.7
+- robotframework 2.9
+- appiumLibrary 1.3.1
 
 ## Running the tests
 This image will run the tests in the /robot directory. Assuming your directory of robot framework tests is in ~/robot:
