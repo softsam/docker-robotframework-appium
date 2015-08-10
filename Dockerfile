@@ -7,7 +7,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip install robotframework==2.9
-RUN pip install robotframework-appiumlibrary==1.3.1
+RUN pip install robotframework-appiumlibrary==1.3.3
 
 RUN mkdir /robot
 VOLUME /robot
